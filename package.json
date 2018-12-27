@@ -8,11 +8,9 @@
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint"
   },
-  {
-    "husky": {
-      "hooks": {
-        "pre-push": "npm run lint"
-      }
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
     }
   },
   "repository": {
